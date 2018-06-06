@@ -15,7 +15,7 @@
 		String userName = "";
 		boolean flage = false;
 		try {
-			Scanner sc = new Scanner(new File("D:\\userlist.txt"));
+			Scanner sc = new Scanner(new File("D:/Workspace/Web/WebContent/images/userlist.txt"));
 			while (sc.hasNextLine()) {
 				String line = sc.nextLine();
 				String[] ss = line.split("\\s+");
